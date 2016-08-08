@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>Archades Compendium: Account Registration</title>
+		<style>
+			div#archadesbody { background-color: #ececec; font-family: georgia; margin: auto; width: 50%; border: 1px solid #bcc1c8; padding: 50px; }
+			h3   { color: #24374e; }
+			p, a, a:active, a:visited, a:focus    { color: #30363e; }
+			a:hover { color: black; }
+		</style>
+	</head>
+	<body>
+	<div id="archadesbody"><h3>Welcome, %USERNAME%,</h3>
+	
+	<p>Thank you for registering an account with Archades Compendium. The Compendium is a supporting site for Archades, the forum, and serves to manage character applications. Membership on the Compendium is optional, and you can deactivate your account at <a href="#" target="_blank">any time</a>.</p>
+	
+	<p>To continue using the site, please <b>confirm your e-mail address</b> by <a href="%SITE_ROOT%/signup-confirmation.php?user=%USERNAME%&code=%CONF_CODE%" target="_blank">clicking here</a> or copy and pasting the below URL into your web browser:<br>
+	%SITE_ROOT%/signup-confirmation.php?user=%USERNAME%&code=%CONF_CODE%
+	
+	<p>If you believe you have received this email in error, please <a href="#" target="_blank">click here</a> or send an email to the forum administrators at the e-mail address: %ADMIN_EMAIL%.</p>
+	
+	<p>Thank you,<br>
+	Archades Staff</p></div>
+	</body>
+</html>

@@ -1,0 +1,8 @@
+@import url("utility.css");
+#addcharacter { margin-bottom: 20px; }
+table { border: 1px solid #1b1b1b; }
+@media (min-width: 768px) {
+	#addcharacterrow { width: 70%; margin: auto; }
+}
+.stat-arc { color: #4e6265; }
+.stat-inact { color: #b94f4f; }

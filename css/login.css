@@ -1,0 +1,60 @@
+#form-login { margin-left: 2%; width: 96%; }
+
+@media (min-width: 992px) { #form-login { margin-left: 10%; width: 80%; } }
+
+@media (min-width: 768px) { #form-login { margin-left: 10%; width: 80%; } }
+
+.btn-info { background-color: #567482; background-image: none; }
+.btn-info:hover, .btn-info:focus, .btn-info:active { background-color:#485563; background-image: none; }
+
+@import url("formValidation.min.css");
+
+.panel { box-shadow: 1px 1px 3px #17191b; }
+
+.panel-body { background-color: rgba(0, 0, 0, 0.24); }
+
+label { color: #cccccc; }
+
+.panel-default>.panel-heading {
+	color: #cccccc;
+    border-bottom: none;
+    background-image: linear-gradient(#224349, #232f34 60%, #23272b);
+}
+
+.form-control {
+	color: #0f1010;
+	border: 1px solid #000000;
+	background-color: rgba(255, 255, 255, 0.09);
+}
+
+.has-success .form-control:focus, .has-error .form-control:focus, .form-control:focus {
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 6px #101520;
+}
+
+.has-success .form-control, .has-success .form-control:focus, .form-control:focus {
+	border-color: #21484e;
+}
+
+.form-control:focus::-webkit-input-placeholder { color: #445c61; }
+.form-control:focus:-moz-placeholder { /* Firefox 18- */ color: #445c61; }
+.form-control:focus::-moz-placeholder {  /* Firefox 19+ */ color: #445c61; }
+.form-control:focus:-ms-input-placeholder { color: #445c61; }
+
+.form-control::-webkit-input-placeholder { color: #717171; }
+.form-control:-moz-placeholder { /* Firefox 18- */ color: #717171; }
+.form-control::-moz-placeholder {  /* Firefox 19+ */ color: #717171; }
+.form-control:-ms-input-placeholder {  color: #717171; }
+
+.btn{
+    background-image: -webkit-linear-gradient(#18767e, #304453 60%, #1c1e22);
+    background-image: -o-linear-gradient(#18767e, #304453 60%, #1c1e22);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#18767e), color-stop(60%, #304453), to(#1c1e22));
+    background-image: linear-gradient(#18767e, #304453 60%, #1c1e22);
+}
+
+.btn:hover{
+    background-image: -webkit-linear-gradient(#1c1e22, #304453 60%, #18767e);
+    background-image: -o-linear-gradient(#1c1e22, #304453 60%, #18767e);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#1c1e22), color-stop(60%, #304453), to(#18767e));
+    background-image: linear-gradient(#1c1e22, #304453 60%, #18767e);
+}
